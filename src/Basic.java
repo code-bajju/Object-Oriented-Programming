@@ -14,7 +14,6 @@ public class Basic {
     }
 
     public static void main(String args[]) {
-        AlisaAndBajrang.set("Alisa and Bajrang", 10000.0f);
-        AlisaAndBajrang.get();
+
     }
 }
