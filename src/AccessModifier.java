@@ -3,12 +3,10 @@ public class AccessModifier {
         student detail = new student();
        detail.setName("bajrang Gour");
         System.out.println(detail.getName());
-//        System.out.println(.rollNo);
     }
 }
 class student{
     int rollNo;
-
     private String name ;
     public void setName(String bajju){
         name = bajju;
@@ -22,11 +20,4 @@ class student{
     public int getRollNo(){
         return rollNo;
     }
-
 }
-
-//class section
-//    student group = new student();
-////    group.name= "bajrang" ;
-//
-//}
